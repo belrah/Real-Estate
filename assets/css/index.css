@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-link,
+a {
+    color: white;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.navbar-link:hover {
+    color: yellow;
+    font-weight: bold;
+    background-color: brown;
+}
+
+a:hover {
+    color: rgb(0, 135, 34);
+    font-weight: bold;
+}
+
+
+/*---header-css--*/
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/Bathroom\ in\ a\ mobile\ home.mp4");
+    width: 100%;
+    height: 75vh !important;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 110%;
+    min-width: 100%;
+    opacity: 0.5;
+    mix-blend-mode: darken;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description p {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    text-align: center !important;
+}
+
+.description .span {
+    color: rgb(0, 135, 34);
+}
+
+.header {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*---about-css--*/
+
+.about {
+    position: relative;
+    margin: 1.5em;
+}
+
+.about h1 {
+    font-weight: 400;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+}
+
+.about span {
+    display: block;
+    /* left: 50px; */
+    position: absolute;
+    font-size: 40px;
+    font-weight: 600;
+    margin: auto auto 1em;
+}
+
+.about .about-container {
+    padding: 2em;
+    border-left: 4px solid rgb(40, 167, 69);
+}
+
+.about .about-container h3 {
+    font-size: 3.2em;
+}
+
+.about .about-container p {
+    line-height: 23px;
+    margin-top: 50px;
+}
+
+
+/*---mortgage-css--*/
+
+.mortgage {
+    margin: 1.5em;
+}
+
+.mortgage h1 {
+    font-weight: 400;
+}
+
+.mortgage img {
+    /* margin: 1em; */
+    width: 100%;
+    transition: 500ms;
+    cursor: pointer;
+    background-color: rgb(0, 135, 34);
+    border-radius: 10px;
+}
+
+.mortgage img:hover {
+    opacity: 0.3;
+    color: rgb(0, 135, 34);
+}
+
+
+/*---team-css--*/
+
+.team img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.team .card {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.team .card-footer {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+/*---contact-css--*/
+
+.contact-form h1 {
+    margin: 1em;
+}
+
+.contact-form {
+    position: relative;
+    margin: 1.5em;
+}
+
+.contact-form .myform {
+    max-width: 600px;
+}
+
+.contact-form h1 {
+    font-size: 3.2em;
+}
+
+.contact-form .myform .btn-success:hover {
+    background-color: rgb(0, 135, 34);
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.contact-form .myform .btn-success {
+    transition: 500ms;
+    background-color: white;
+    color: rgb(0, 135, 34);
+    border: 1px solid rgb(0, 135, 34);
+    font-size: 22px;
+}
+
+
+/*---blog css--*/
+
+.blog h1 {
+    margin: 1em;
+}
+
+
+/*---header for blog-css--*/
+
+.header-blog {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/blog-hero1.jpg");
+}
+
+.blog {
+    position: relative;
+}
+
+.blog .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .desc {
+    background-color: rgb(0, 135, 34);
+    color: white;
+    border-top-right-radius: 95%;
+    transition: 0.4ms ease-in-out;
+    position: absolute;
+    width: 86.5%;
+    bottom: 24px;
+}
+
+.blog .item:hover .desc {
+    height: 100%;
+    background: rgb(0, 135, 34);
+    position: absolute;
+    width: 92%;
+    padding: 5em;
+    top: 0;
+    border-top-right-radius: 0;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.blog .item:hover .desc h6 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+
+/*---custom css for my scroll bar--*/
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 135, 34);
+    border-radius: 10px;
+}
+
+
+/*---footer-css--*/
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-decoration: none;
+}
+
+.footer-small {
+    background-color: rgb(4, 77, 21);
+}
+
+@media screen and (max-width: 576px) {
+    .description h1 {
+        font-size: 19px;
+    }
+    .description p {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 15px;
+    }
+    .about span {
+        font-size: 35px;
+        font-weight: 600;
+        margin: auto auto .3em;
+    }
+    .contact-form h1 {
+        margin: .5em .3em .3em 0;
+    }
+}
